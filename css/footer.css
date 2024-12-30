@@ -1,0 +1,114 @@
+.footer{
+    background-color: /*#3B3F54*/#333333;
+    color:white;
+    width: 100%;
+   /* display:flex;
+  /* flex-direction:row;*/
+   /* justify-content:space-evenly;
+    font-family:'Times New Roman', Times, serif;
+     /*font-weight:bold;
+    font-size:1.5em;*/
+  }
+  .Address{
+   margin-left: 10px;
+    margin-top:40px;
+  }
+  .img-address{
+    margin-left:50px;
+    margin-bottom:30px;
+  }
+  .image-contact{
+    margin-left:-10px;
+  }
+  
+  .contact-info{
+   margin:30px;
+  }
+  
+  .para-contact{
+    margin-bottom:15px;
+  }
+  .para-foot{
+    color:white;
+    margin-left:30px;
+    margin-top:-30px;
+    margin-bottom:10px;
+    text-decoration:none;
+  }
+  .para-foot1{
+    margin-bottom:15px;
+  }
+  .no-under-line{
+    text-decoration:none;
+    color:white;
+  
+  
+  }
+  .quick{
+    margin-bottom:7px;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    /* Styles for smartphones */
+   .footer {
+    /*background-color: /*#3B3F54*//*#333333;*/
+        color:white;
+     display: flex !important;
+      flex-direction: column;
+      /*justify-content:start;*/
+      /*flex-wrap:wrap;*/
+      /*align-items:;*/
+    }
+    .para-contact{
+      margin:30px !important;
+     }
+     
+     
+     }
+  
+     @media only screen and (min-width: 1024px) and (max-width: 1680px) {
+      /* Styles for laptops */
+      .footer{
+       /* background-color: /*#3B3F54*/ /*#333333;
+        color:white;*/
+        display:flex;
+       flex-direction:row;
+       justify-content:space-evenly;
+        font-family:'Times New Roman', Times, serif;
+         /*font-weight:bold;
+        font-size:1.5em;*/
+      }
+  
+      
+      .img-address{
+        margin-left:80px;
+      }
+      .para-foot1{
+        font-size:25px;
+        margin-top:-15px;
+      }
+      .image-contact1{
+        margin-left:30px;
+        margin:3px;
+      }
+      .para-contact{
+        font-size:25px;
+        font-weight:bold;
+      }
+      .para-foot{
+        font-size:23px;
+      }
+      .quick{
+        font-size:23px;
+  
+      }
+  
+     }
+  
+    
+    
+   
+  
+  
+   
+    
+  

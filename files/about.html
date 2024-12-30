@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Wine Shop</title>
+    <link rel="stylesheet" href="../css/about.css"/>
+    <link rel="stylesheet" href="../css/navbar.css"/>
+    <link rel="stylesheet" href="../css/footer.css"/>
+    <link rel="stylesheet" href="../files/about.html"/>
+    <link rel="stylesheet" href="../css/special.css"/>
+</head>
+<body>
+
+
+
+    <div class="navbar">
+        <span class="flag-emoji">
+            <img src="../images/icon.png"class="sula"> Wine Shop</span>
+     
+        <div class="menus">
+         <span class="menu-item">
+             <img src="../images/wine.png" class="icon"  alt="history">
+             <span class="menu-text">
+              <a href="./../files/sp.html" class="head">
+                Special Wines
+              </a>
+            
+           </span>
+         </span>
+         <span class="menu-item">
+             <img src="../images/food.png" class="icon"  alt="history">
+             <span class="menu-text">
+
+              <a href="./../files/menu.html" class="head">
+               Menues
+              </a>
+            
+           
+           </span> 
+         </span>
+         <span class="menu-item">
+             <img src="../images/phone.png" class="icon"  alt="history">
+             <span class="menu-text">
+             Contact-Us
+         </span>
+         </span>
+         <span class="menu-item">
+             <img src="../images/about.png" class="icon"  alt="history">
+             <span class="menu-text">
+             About Us
+         </span>
+         </span>
+         <span class="menu-item">
+            <img src="../images/party.png" class="icon"  alt="history">
+            <span class="menu-text">
+           Party Hall 
+        </span>
+        </span>
+        <span class="menu-item">
+        <img src="../images/login.png" class="icon"  alt="history">
+            <span class="menu-text">
+              <a href="./../files/login.html" class="head">
+                Login
+               </a>
+            
+            </span>
+        </span>
+        <span class="menu-item">
+            <img src="../images/sign.png" class="icon"  alt="history">
+          <span class="menu-text">
+
+            <a href="./../files/signup.html" class="head">
+              sign-up
+             </a>
+           
+          </span>
+        </span>
+        
+    </div>
+        </div>
+
+
+    
+
+
+
+        <h1 class="headings">About Us!🥂</h1>
+
+
+       <h1 class="info">In the United States, each state has the authority to regulate the production, sale, and distribution of alcohol within its borders. This means state and local jurisdictions may have their own requirements in addition to federal requirements. State laws and regulations vary widely from state to state, and may be more restrictive than federal regulations.
+
+You must meet all state and local requirements in any state where you plan to do business (unless Federal law preempts the state law). If you plan to do business in a state, you must contact its appropriate authorities for more information about the state and local requirements </h1>
+
+    <div class="container">
+<img src="../specialwines/about.jpg" class="slide" id="slide"/>
+<img src="../specialwines/right2.png" class=" icon-action next" onclick="next()"/>
+<img src="../specialwines/left1.png" class=" icon-action back" onclick="prev()"/>
+    </div>
+
+    <script>
+    const images = ["../specialwines/dance.jpg","../specialwines/casino.jpg","../specialwines/lady.avif","../specialwines/lady2.jpg","../specialwines/lady3.jpg"]
+ 
+      let index = 0;
+      const slide = document.getElementById('slide') 
+      
+   function name(){
+    
+   }
+        function next(){
+          if(index < images.length -1){
+           index++;
+            }
+
+        else{
+            index = 0;
+        }
+      slide.src = images[index]
+    }
+
+    function prev(){
+          if(index > 0){
+           index--;
+            }
+
+        else{
+            index = images.length -1;
+        }
+      slide.src = images[index]
+    }
+
+  setInterval(next, 3000);
+        </script>
+
+
+
+ <h1 class="body">Our Services</h1>
+<div class="image-conatiner">
+    <div class="card">
+        <div class="icon">
+           
+           <img src="./../aboutimg/profit.png"  alt="saving icon image"class="image-1">
+           </div>
+           <div  class="discription">
+                 <p class="discription-first"><spain class="bold"> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Affordable Wine Price</spain><br>
+                    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; we offer a wide range of wines at affordable prices, carefully &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selected to meet the needs of all our customers<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Whether you’re a casual wine
+          </div>
+          </div>
+
+          <div class="card">
+           <div class="icon">
+              
+              <img src="./../aboutimg/security.png"alt="techer icon image"class="image-1">
+              </div>
+              <div  class="discription">
+                    <p class="discription-first"><spain class="bold"> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Best Security </spain><br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; we prioritize the safety and security of both our customers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and our inventory. We employ state-of-the-art<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;security measures.  </p>
+             </div>
+          </div>
+
+          <div class="card">
+           <div class="icon">
+              
+              <img src="./../aboutimg/foods.png"alt="experince icon image"class="image-1">
+              </div>
+              <div  class="discription">
+                    <p class="discription-first"><spain class="bold"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Experience Cook</spain><br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A Wine shop provide quality food in Low Buget and well <br>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Clean the kitchen and maintain sanitation <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;standards 
+             </div>
+          </div>
+
+          <div class="card">
+           <div class="icon">
+              
+              <img src="./../aboutimg/quality.jpg"alt="job-seeker icon image"class="image-1">
+              </div>
+              <div  class="discription">
+                    <p class="discription-first"><spain class="bold">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Original Wine</spain><br>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A wine shop provide the  Original and Quality  Wine <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bold means that the wine has a full body <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vwith strong flavors</p>
+             </div>
+          </div>
+
+          <div class="card">
+           <div class="icon">
+              
+              <img src="./../aboutimg/alchol.webp"alt="online-learning icon image"class="image-1">
+              </div>
+              <div  class="discription">
+                    <p class="discription-first"><spain class="bold"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; Not  provide wine to Minor</spain><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; wine is a small gesture of gratitude for your hard work and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tireless efforts. You endure great challenges and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;underground </p>
+             </div>
+          </div>
+
+          <div class="card">
+           <div class="icon">
+              
+              <img src="./../aboutimg/service.png"alt="idea icon image"class="image-1">
+              </div>
+              <div  class="discription">
+                    <p class="discription-first"><spain class="bold">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provide politely Service</spain><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It’s my pleasure to offer you this selection of wine. Please &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;allow me to assist you in choosing the perfect<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;variety to suit your taste. </p>
+             </div>
+          </div>
+
+       </div>
+
+
+
+
+
+<h1 class="body">Our Mastermind and Dashing  Owners</h1>
+
+            <div class="team">
+             
+                <div class="team-member" id="team1">
+                    <img src="../icons/lalit.jpeg" alt="Team Member 1">
+                    <p>Mr Lalit Lande</p>
+                    <p class="bio">Lalit is great man with multiple ideas. since he started the wine shop in 2010.</p>
+                </div>
+                <div class="team-member" id="team2">
+                    <img src="../icons/rutik.jpeg" alt="Team Member 2">
+                    <p>Rutik Kobarne</p>
+                    <p class="bio">Rutik are great man with powerfull political Support and Business idea with supports.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+
+
+
+    
+    <div class="footer">
+        <div class="Address">
+            <img src="../footer-icon/footer.jpg" alt="sample image" width="70px" height="70px" class="img-address">
+            <p class="para-foot1">Let Celebrate Your Precious Moment<br>
+              &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; With Us.</p>
+            
+            <a href="tel:9322338903"> 
+                <img src="../footer-icon/phone-call.png" alt="calling image png" width="55px" height="55px" class="image-contact1">
+              </a>&nbsp; &nbsp;
+              <a href="rutikkobarne@gmail.com" class="no-underline"> 
+                <img src="../footer-icon/email.png" alt="email image png" width="36px" height="36px"class="image-contact1" >
+              </a>
+        </div>
+    
+    
+        <div class="contact-info">
+    
+            <p class="para-contact">Contact-Info</p>
+            <img src="../footer-icon/location.png" alt="Location image png" width="30px" height="30px" class="image-contact">
+    
+            <p class="para-foot">A.nagar landewadi<br> Sonai Shani Shingnapur </p>
+    
+    
+            <img src="../footer-icon/phone-call.png" alt="calling image png" width="35px" height="35px" class="image-contact">
+            <p class="para-foot">
+                <a href="tel:9322338903" class="no-under-line">9322338903</a>
+            </p>
+    
+    
+            <img src="../footer-icon/email.png" alt="email image png" width="30px" height="30px" class="image-contact">
+            <p class="para-foot">
+                <a href="mailto:rutikkobarne@gmail.com" class="no-under-line">Lande Patil Wine Shop</a>
+            </p>
+         </div>
+    
+    
+        <div class="contact-info">
+            
+            <p class="para-contact">Quick Links</p>
+    
+              <p class="quick">
+                <a href="./../pages/about.html" class="no-under-line">About</a>
+            </p>
+            
+            <p class="quick"> 
+            <a href="./../pages/feedback.html" class="no-under-line">Contact</a>
+            </p>
+        
+            <p class="quick">
+            <a href="./sp.html" class="no-under-line">Special Wines</a>
+            </p>
+            
+            <p class="quick">
+            <a href="./menu.html" class="no-under-line"> Menues</a>
+            </p>
+    
+            <p class="quick">
+                <a href="./../pages/faq.html" class="no-under-line">Party Hall</a>
+                </p>
+    
+            <p class="quick">
+            <a href="./login.html" class="no-under-line">Login </a>
+            </p>
+
+            <p class="quick">
+              <a href="./signup.html" class="no-under-line">sign-up</a>
+              </p>
+    
+        </div>
+    
+    
+        <div class="contact-info">
+            <p class="para-contact">Follow Us On</p>
+    
+           
+            <img src="../footer-icon/instagram.png" alt="instagram image png" width="30px" height="30px"class="image-contact">
+            <p class="para-foot">&nbsp;&nbsp;
+                <a href="#" class="no-under-line">Instagram</a>
+            
+            </p>
+    
+    
+            <img src="../footer-icon/communication.png" alt="facebook png image" width="30px" height="30px"class="image-contact">
+            <p class="para-foot">&nbsp;&nbsp;
+                <a href="#" class="no-under-line">Facebook</a>
+            </p>
+    
+            <img src="../footer-icon/youtube.png" alt="youtube png image" width="30px" height="30px" class="image-contact">
+            <p class="para-foot">&nbsp;&nbsp;
+                <a href="#" class="no-under-line">Youtube</a>
+            </p>
+    
+    
+            <img src="../footer-icon/twitter.png" alt="Twitter png image" width="30px" height="30px"class="image-contact">
+            <p class="para-foot">&nbsp;&nbsp;
+                <a href="#" class="no-under-line">Twitter(X)</a>
+            </p>
+    
+            <img src="../footer-icon/shop.png" alt="Linkedin png image" width="30px" height="30px"class="image-contact">
+            <p class="para-foot">&nbsp;&nbsp;
+                <a href="#" class="no-under-line">Shop Website</a>
+            </p>
+    
+        </div>
+    </div>
+
+</body>
+</html>
+

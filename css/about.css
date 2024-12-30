@@ -1,0 +1,112 @@
+
+
+
+
+.team {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team-member {
+    text-align: center;
+    width: 200px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #3d5c5c;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #333;
+}
+
+.team-member .bio {
+    font-size: 14px;
+    color: #777;
+}
+
+
+.info{
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    padding-left: 10px;
+}
+
+.body{
+    text-align: center;
+    font-size: 60px;
+    font-style: oblique;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.image-conatiner{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+   width: 100%;
+  
+    
+}
+.icon{
+    height: 75px;
+    width: 80px;
+   
+    border-radius: 10px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    
+    
+}
+
+.discription-first{
+  margin-top: 0px;
+  height:100px;   
+  width: 450px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 20px;
+  
+}
+.card{
+    width: 495px;
+    height: 120px;
+    display: flex;
+    margin:60px;
+    
+ 
+ 
+}
+.image-1{
+    height: 60px;
+    width: 80px; 
+    background-color:white ;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+
+.heads{
+    text-align: center;
+}

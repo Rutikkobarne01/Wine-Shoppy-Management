@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <link rel="stylesheet" href="../css/menu.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/footer.css"/>
+    <link rel="stylesheet" href="../css/special.css"/>
+
+    
+</head>
+<body>
+    <div class="navbar">
+        <span class="flag-emoji">
+            <img src="../images/icon.png"class="sula"> Wine Shop</span>
+     
+        <div class="menus">
+         <span class="menu-item">
+             <img src="../images/wine.png" class="icon"  alt="history">
+             <span class="menu-text">
+              <a href="./../files/sp.html" class="head">
+                Special Wines
+              </a>
+            
+           </span>
+         </span>
+         <span class="menu-item">
+             <img src="../images/food.png" class="icon"  alt="history">
+             <span class="menu-text">
+              <a href="./../files/menu.html" class="head">
+                Menue
+              </a>
+            
+            
+           </span> 
+         </span>
+         <span class="menu-item">
+             <img src="../images/phone.png" class="icon"  alt="history">
+             <span class="menu-text">
+              <a href="./../files/contact.html" class="head">
+               Contact-Us
+              </a>
+            
+            
+         </span>
+         </span>
+         <span class="menu-item">
+             <img src="../images/about.png" class="icon"  alt="history">
+             <span class="menu-text">
+             About Us
+         </span>
+         </span>
+         <span class="menu-item">
+            <img src="../images/party.png" class="icon"  alt="history">
+            <span class="menu-text">
+           Party Hall 
+        </span>
+        </span>
+        <span class="menu-item">
+        <img src="../images/login.png" class="icon"  alt="history">
+            <span class="menu-text">
+            login
+            </span>
+        </span>
+        <span class="menu-item">
+            <img src="../images/sign.png" class="icon"  alt="history">
+          <span class="menu-text">
+           sign-up
+          </span>
+        </span>
+        
+    </div>
+        </div>
+
+        
+
+    <h1 class="headings">Special Wines Images🥂</h1>
+
+    <div class="container">
+<img src="../specialwines/front.jpg" class="slide" id="slide"/>
+<img src="../specialwines/right2.png" class=" icon-action next" onclick="next()"/>
+<img src="../specialwines/left1.png" class=" icon-action back" onclick="prev()"/>
+    </div>
+
+    <script>
+    const images = ["../specialwines/wine2.jpg","../specialwines/home.jpg","../specialwines/home2.jpg","../specialwines/home3.jpg","../specialwines/home4.jpg","../specialwines/home5.jpg","../specialwines/main.jpg","../specialwines/wine3.jpg","../specialwines/five.jpg","../specialwines/wine2.avif"]
+ 
+      let index = 0;
+      const slide = document.getElementById('slide') 
+      
+   function name(){
+    
+   }
+        function next(){
+          if(index < images.length -1){
+           index++;
+            }
+
+        else{
+            index = 0;
+        }
+      slide.src = images[index]
+    }
+
+    function prev(){
+          if(index > 0){
+           index--;
+            }
+
+        else{
+            index = images.length -1;
+        }
+      slide.src = images[index]
+    }
+
+  setInterval(next, 3000);
+        </script>
+
+      <h1 class="headings">  SPecial Wines , Beers and it's Prices </h1>
+
+
+      <div class="why-choose-us-container">
+
+ 
+
+        <div class="why-choose-us-card">
+      
+          <img 
+          src="../cardimg/card6.avif"
+           class="why-choose-us-img"
+            alt="Hygiene" />
+      
+          <h3 class="text-center">Red Ribbon</h3>
+      
+          <p class="text-center dansing-script">Special wine Bottle wrapped with a red ribbon wine<br>
+            <a href="../pages/first.html">
+            <button class="btn">More Info</button>
+          </a>
+          </p>
+    
+         
+        </div>
+      
+       <div class="why-choose-us-card">
+      
+        <img 
+        src="../cardimg/card30.avif"
+         class="why-choose-us-img"
+          alt="internet" />
+      
+        <h3 class="text-center"> Cabernet Sauvignon</h3>
+      
+        <p class="text-center">Strong and full-bodied taste makes it enjoyable Wine<br>
+    
+          <a href="../pages/second.html">
+            <button class="btn">More Info</button>
+          </a>
+    
+        </p>
+      </div>
+    
+      <div class="why-choose-us-card">
+      
+        <img 
+        src="../cardimg/card4.avif"
+         class="why-choose-us-img"
+          alt="salad" />
+      
+        <h3 class="text-center"> Merlot</h3>
+      
+        <p class="text-center dansing-script">Merlot is a dark blue–colored wine grape variety<br>
+          <a href="../pages/Third.html">
+            <button class="btn">More Info</button>
+          </a>
+        </p>
+      </div>
+    
+    
+      <div class="why-choose-us-card">
+      
+        <img 
+        src="../cardimg/card3.avif"
+         class="why-choose-us-img"
+          alt="salad" />
+      
+        <h3 class="text-center"> Pinot Noir</h3>
+      
+        <p class="text-center dansing-script">Pinot noir, is a red-wine grape variety of the species<br>
+    
+          <a href="../pages/four.html">
+            <button class="btn">More Info</button>
+          </a>
+        </p>
+      </div>
+      </div>
+    
+    
+
+  <div class="why-choose-us-container">
+
+
+
+    <div class="why-choose-us-card">
+  
+      <img 
+      src="../cardimg/cad5.avif"
+       class="why-choose-us-img"
+        alt="Hygiene" />
+  
+      <h3 class="text-center">Red wine</h3>
+  
+      <p class="text-center dansing-script">Red wine grape that can produce a variety and Movement of wines
+        <a href="../pages/red.html">
+          <button class="btn">More Info</button>
+        </a>
+      </p>
+    </div>
+  
+   <div class="why-choose-us-card">
+  
+    <img 
+    src="../cardimg/card1.jpg"
+     class="why-choose-us-img"
+      alt="internet" />
+  
+    <h3 class="text-center"> Rose Wine</h3>
+  
+    <p class="text-center dansing-script">Rosé is made by briefly soaking crushed grapes in their skins Wine <br>
+      <a href="../pages/rose.html">
+        <button class="btn">More Info</button>
+      </a>
+    </p>
+  </div>
+
+  <div class="why-choose-us-card">
+  
+    <img 
+    src="../cardimg/card7.jpg"
+     class="why-choose-us-img"
+      alt="salad" />
+  
+    <h3 class="text-center">Sparkling</h3>
+  
+    <p class="text-center dansing-script">sparkling wine  made with red wine, white wine or  combination of both <br>
+      <a href="../pages/sparkiling.html">
+        <button class="btn">More Info</button>
+      </a>
+    </p>
+  </div>
+
+
+  <div class="why-choose-us-card">
+  
+    <img 
+    src="../cardimg/card8.jpg"
+     class="why-choose-us-img"
+      alt="salad" />
+  
+    <h3 class="text-center"> Zinfandel Wine</h3>
+  
+    <p class="text-center dansing-script">Zinfandel is a variety of black-skinned wine grape and healty<br>
+      <a href="../pages/Zinfandel.html">
+        <button class="btn">More Info</button>
+      </a>
+    </p>
+  </div>
+  </div>
+
+
+  <div class="why-choose-us-container">
+
+
+
+    <div class="why-choose-us-card">
+  
+      <img 
+      src="../cardimg/bud2.jpg"
+       class="why-choose-us-img"
+        alt="Hygiene" />
+  
+      <h3 class="text-center">Budweiser Beer</h3>
+  
+      <p class="text-center dansing-script">Budweiser is a medium-bodied, American-style pale lager beer
+
+        <a href="../pages/budweiser.html">
+          <button class="btn">More Info</button>
+        </a>
+      </p>
+    </div>
+  
+   <div class="why-choose-us-card">
+  
+    <img 
+    src="../cardimg/Kingfisher.jpg"
+     class="why-choose-us-img"
+      alt="internet" />
+  
+    <h3 class="text-center">Kingfisher Beer</h3>
+  
+    <p class="text-center dansing-script">Kingfisher Strong is a well-known Indian beer renowned for alcohol 
+
+      <a href="../pages/kingfisher.html">
+        <button class="btn">More Info</button>
+      </a>
+
+    </p>
+  </div>
+
+  <div class="why-choose-us-card">
+  
+    <img src="../cardimg/Tuborg.jpg"
+         class="why-choose-us-img"
+      alt="salad" />
+  
+    <h3 class="text-center">Tuborg</h3>
+    <p class="text-center dansing-script">Tuborg is a bottom-fermented lager beer brewed the Carlsberg <br>
+
+      <a href="../pages/tuborg.html">
+        <button class="btn">More Info</button>
+      </a>
+
+    </p>
+  </div>
+
+
+  <div class="why-choose-us-card">
+  
+    <img src="../cardimg/Busch.jpg"
+     class="why-choose-us-img"
+      alt="salad" />
+  
+    <h3 class="text-center"> Busch Beer</h3>
+  
+    <p class="text-center dansing-script">Busch beer is an American-style lager that is brewed in Canada<br>
+
+      <a href="../pages/busch.html">
+        <button class="btn">More Info</button>
+      </a>
+
+
+    </p>
+  </div>
+  </div>
+
+
+  
+
+
+
+  <div class="footer">
+    <div class="Address">
+        <img src="../footer-icon/footer.jpg" alt="sample image" width="70px" height="70px" class="img-address">
+        <p class="para-foot1">Let Celebrate Your Precious Moment<br>
+          &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; With Us.</p>
+        
+        <a href="tel:9322338903"> 
+            <img src="../footer-icon/phone-call.png" alt="calling image png" width="55px" height="55px" class="image-contact1">
+          </a>&nbsp; &nbsp;
+          <a href="rutikkobarne@gmail.com" class="no-underline"> 
+            <img src="../footer-icon/email.png" alt="email image png" width="36px" height="36px"class="image-contact1" >
+          </a>
+    </div>
+
+
+    <div class="contact-info">
+
+        <p class="para-contact">Contact-Info</p>
+        <img src="../footer-icon/location.png" alt="Location image png" width="30px" height="30px" class="image-contact">
+
+        <p class="para-foot">A.nagar landewadi<br> Sonai Shani Shingnapur </p>
+
+
+        <img src="../footer-icon/phone-call.png" alt="calling image png" width="35px" height="35px" class="image-contact">
+        <p class="para-foot">
+            <a href="tel:9322338903" class="no-under-line">9322338903</a>
+        </p>
+
+
+        <img src="../footer-icon/email.png" alt="email image png" width="30px" height="30px" class="image-contact">
+        <p class="para-foot">
+            <a href="mailto:rutikkobarne@gmail.com" class="no-under-line">Lande Patil Wine Shop</a>
+        </p>
+     </div>
+
+
+    <div class="contact-info">
+        
+        <p class="para-contact">Quick Links</p>
+
+          <p class="quick">
+            <a href="./../pages/about.html" class="no-under-line">About</a>
+        </p>
+        
+        <p class="quick"> 
+        <a href="./contact.html" class="no-under-line">Contact</a>
+        </p>
+    
+        <p class="quick">
+        <a href="./sp.html" class="no-under-line">Special Wines</a>
+        </p>
+        
+        <p class="quick">
+        <a href="./menu.html" class="no-under-line"> Menues</a>
+        </p>
+
+        <p class="quick">
+            <a href="./../pages/faq.html" class="no-under-line">Party Hall</a>
+            </p>
+
+        <p class="quick">
+        <a href="./login.html" class="no-under-line">Login </a>
+        </p>
+
+
+        <p class="quick">
+          <a href="./signup.html" class="no-under-line">sign-up </a>
+          </p>
+
+    </div>
+
+
+    <div class="contact-info">
+        <p class="para-contact">Follow Us On</p>
+
+       
+        <img src="../footer-icon/instagram.png" alt="instagram image png" width="30px" height="30px"class="image-contact">
+        <p class="para-foot">&nbsp;&nbsp;
+            <a href="#" class="no-under-line">Instagram</a>
+        
+        </p>
+
+
+        <img src="../footer-icon/communication.png" alt="facebook png image" width="30px" height="30px"class="image-contact">
+        <p class="para-foot">&nbsp;&nbsp;
+            <a href="#" class="no-under-line">Facebook</a>
+        </p>
+
+        <img src="../footer-icon/youtube.png" alt="youtube png image" width="30px" height="30px" class="image-contact">
+        <p class="para-foot">&nbsp;&nbsp;
+            <a href="#" class="no-under-line">Youtube</a>
+        </p>
+
+
+        <img src="../footer-icon/twitter.png" alt="Twitter png image" width="30px" height="30px"class="image-contact">
+        <p class="para-foot">&nbsp;&nbsp;
+            <a href="#" class="no-under-line">Twitter(X)</a>
+        </p>
+
+        <img src="../footer-icon/shop.png" alt="Linkedin png image" width="30px" height="30px"class="image-contact">
+        <p class="para-foot">&nbsp;&nbsp;
+            <a href="#" class="no-under-line">Shop Website</a>
+        </p>
+
+    </div>
+
+
+</div>
+</body>
+</html>

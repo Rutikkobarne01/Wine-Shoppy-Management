@@ -1,0 +1,55 @@
+.why-choose-us-heading {
+  margin-top: 50px;
+}
+.why-choose-us-container{
+  display: flex;
+  justify-content: space-around;
+  background-color: #f3d2c1;
+  margin:20px  0px;
+  padding: 20px;
+  box-shadow: 0 0 10px 1px black;
+  
+}
+
+.why-choose-us-card {
+  background-color: #fff;
+  height: 270px;
+  width:170px;
+  padding: 10px;
+  border-radius:5px;
+  margin:10px;
+  box-shadow: 0 0 10px 1px #808080;
+ 
+}
+.why-choose-us-img{
+ 
+  width: 100px;
+  height: 95px;
+  border-radius: 8px;
+  display: block;
+  margin:10px auto;
+  border: solid black 2px;
+}
+.text-center{
+  text-align: center;
+  
+}
+.btn{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+      }
+    .btn:hover{
+    color:#ff1ac2;
+    }
+    .heading{
+      text-align: center;
+      font-style: oblique;
+      font-size: 60px;
+    }

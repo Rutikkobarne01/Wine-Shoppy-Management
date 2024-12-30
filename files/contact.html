@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Wine Shop</title>
+
+  <link rel="stylesheet" href="../css/navbar.css"/>
+
+  <link rel="stylesheet" href="../css/contact.css"/>
+  <link rel="stylesheet" href="../css/footer.css"/>
+  
+</head>
+<body>
+
+    <div class="navbar">
+        <span class="flag-emoji">
+            <img src="../images/icon.png"class="sula"> Wine Shop</span>
+     
+        <div class="menus">
+         <span class="menu-item">
+             <img src="../images/wine.png" class="icon"  alt="history">
+             <span class="menu-text">
+              <a href="./../files/sp.html" class="head">
+                Special Wines
+              </a>
+            
+           </span>
+         </span>
+         <span class="menu-item">
+             <img src="../images/food.png" class="icon"  alt="history">
+             <span class="menu-text">
+
+              <a href="./../files/menu.html" class="head">
+               Menues
+              </a>
+            
+           
+           </span> 
+         </span>
+         <span class="menu-item">
+             <img src="../images/phone.png" class="icon"  alt="history">
+             <span class="menu-text">
+
+              <a href="./../files/contact.html" class="head">
+                Contact-Us
+              </a>
+             
+         </span>
+         </span>
+         <span class="menu-item">
+             <img src="../images/about.png" class="icon"  alt="history">
+             <span class="menu-text">
+             About Us
+         </span>
+         </span>
+         <span class="menu-item">
+            <img src="../images/party.png" class="icon"  alt="history">
+            <span class="menu-text">
+           Party Hall 
+        </span>
+        </span>
+        <span class="menu-item">
+        <img src="../images/login.png" class="icon"  alt="history">
+            <span class="menu-text">
+              <a href="./../files/login.html" class="head">
+                Login
+               </a>
+            
+            </span>
+        </span>
+        <span class="menu-item">
+            <img src="../images/sign.png" class="icon"  alt="history">
+          <span class="menu-text">
+
+            <a href="./../files/signup.html" class="head">
+              sign-up
+             </a>
+           
+          </span>
+        </span>
+        
+    </div>
+        </div>
+
+  <script>
+    function validateForm() {
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
+  
+  if (name === "" || email === "" || message === "") {
+    alert("Please fill out all fields before submitting.");
+    return false;
+  }
+
+  if (!validateEmail(email)) {
+    alert("Please enter a valid email address.");
+    return false;
+  }
+
+  alert("Thank you for contacting us!");
+  return true;
+}
+
+// Email Validation
+function validateEmail(email) {
+  const re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+  return re.test(String(email).toLowerCase());
+}
+  </script>
+
+  <section class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>We Love Wine and Wine also Love Us So Drink wine and Make Your Life Healty Forget the Tension .</p>
+      <form id="contact-form" onsubmit="return validateForm()">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input class="name" type="text" id="name" name="name" required placeholder=" Enter Your Email">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address </label>
+          <input class="name" type="email" id="email" name="email" required placeholder=" Enter Your Email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="name" id="message" name="message" required placeholder=" Please Enter a Message"></textarea>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <div class="footer">
+    <div class="Address">
+        <img src="../footer-icon/footer.jpg" alt="sample image" width="70px" height="70px" class="img-address">
+        <p class="para-foot1">Let Celebrate Your Precious Moment<br>
+          &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; With Us.</p>
+        
+        <a href="tel:9322338903"> 
+            <img src="../footer-icon/phone-call.png" alt="calling image png" width="55px" height="55px" class="image-contact1">
+          </a>&nbsp; &nbsp;
+          <a href="rutikkobarne@gmail.com" class="no-underline"> 
+            <img src="../footer-icon/email.png" alt="email image png" width="36px" height="36px"class="image-contact1" >
+          </a>
+    </div>
+
+
+    <div class="contact-info">
+
+        <p class="para-contact">Contact-Info</p>
+        <img src="../footer-icon/location.png" alt="Location image png" width="30px" height="30px" class="image-contact">
+
+        <p class="para-foot">A.nagar landewadi<br> Sonai Shani Shingnapur </p>
+
+
+        <img src="../footer-icon/phone-call.png" alt="calling image png" width="35px" height="35px" class="image-contact">
+        <p class="para-foot">
+            <a href="tel:9322338903" class="no-under-line">9322338903</a>
+        </p>
+
+
+        <img src="../footer-icon/email.png" alt="email image png" width="30px" height="30px" class="image-contact">
+        <p class="para-foot">
+            <a href="mailto:rutikkobarne@gmail.com" class="no-under-line">Lande Patil Wine Shop</a>
+        </p>
+     </div>
+
+
+    <div class="contact-info">
+        
+        <p class="para-contact">Quick Links</p>
+
+          <p class="quick">
+            <a href="./../pages/about.html" class="no-under-line">About</a>
+        </p>
+        
+        <p class="quick"> 
+        <a href="./../pages/feedback.html" class="no-under-line">Contact</a>
+        </p>
+    
+        <p class="quick">
+        <a href="./sp.html" class="no-under-line">Special Wines</a>
+        </p>
+        
+        <p class="quick">
+        <a href="./menu.html" class="no-under-line"> Menues</a>
+        </p>
+
+        <p class="quick">
+            <a href="./../pages/faq.html" class="no-under-line">Party Hall</a>
+            </p>
+
+        <p class="quick">
+        <a href="./login.html" class="no-under-line">Login </a>
+        </p>
+
+        <p class="quick">
+          <a href="./signup.html" class="no-under-line">sign-up</a>
+          </p>
+
+    </div>
+
+
+    <div class="contact-info">
+        <p class="para-contact">Follow Us On</p>
+
+       
+        <img src="../footer-icon/instagram.png" alt="instagram image png" width="30px" height="30px"class="image-contact">
+        <p class="para-foot">&nbsp;&nbsp;
+            <a href="#" class="no-under-line">Instagram</a>
+        
+        </p>
+
+
+        <img src="../footer-icon/communication.png" alt="facebook png image" width="30px" height="30px"class="image-contact">
+        <p class="para-foot">&nbsp;&nbsp;
+            <a href="#" class="no-under-line">Facebook</a>
+        </p>
+
+        <img src="../footer-icon/youtube.png" alt="youtube png image" width="30px" height="30px" class="image-contact">
+        <p class="para-foot">&nbsp;&nbsp;
+            <a href="#" class="no-under-line">Youtube</a>
+        </p>
+
+
+        <img src="../footer-icon/twitter.png" alt="Twitter png image" width="30px" height="30px"class="image-contact">
+        <p class="para-foot">&nbsp;&nbsp;
+            <a href="#" class="no-under-line">Twitter(X)</a>
+        </p>
+
+        <img src="../footer-icon/shop.png" alt="Linkedin png image" width="30px" height="30px"class="image-contact">
+        <p class="para-foot">&nbsp;&nbsp;
+            <a href="#" class="no-under-line">Shop Website</a>
+        </p>
+
+    </div>
+
+
+</div>
+
+
+  
+</body>
+</html>

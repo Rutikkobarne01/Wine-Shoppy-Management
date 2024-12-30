@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="../css/signup.css"/>
+    <link rel="stylesheet" href="../Javascript/scriptone.js"/>
+    
+</head>
+<body>
+
+    <div class="signup-container">
+        <div class="signup-box">
+            <h2>Create Account For Wine Shop</h2>
+            <form id="signup-form" onsubmit="return validateForm()">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="username" name="username" placeholder="Username" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+                </div>
+                <button type="submit" class="signup-btn">Sign Up</button>
+            </form>
+            <p class="error-message" id="error-message"></p>
+            <p>Already have an account? <a href="./login.html">Login</a></p>
+        </div>
+    </div>
+
+    <script src="../Javascript/scriptone.js"></script>
+</body>
+</html>

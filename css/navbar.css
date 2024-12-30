@@ -1,0 +1,122 @@
+.navbar{
+    background-color: #669999;
+  display:flex;
+  align-items: center;
+  padding: 5px 40px;
+  
+  }
+  .flag-emoji{
+    font-size: 30px;
+    color: #fff;
+  }
+  .menus{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  .menu-item{
+   
+   
+    margin-right: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color:#fff;
+   
+  }
+  .menu-item:hover{
+    color:#ff1ac2;
+
+  }
+  .icon{
+    height: 35px;
+    width: 32px;
+    margin-right: 5px;
+    
+  }
+
+  .celebration{
+    width: 600px;
+    border-radius: 10px;
+    border: solid 3px black;
+  }
+  .content{
+  
+    font-size: 18px;
+    margin-left: 80px;
+    font-style: oblique;
+    margin-top: 0px;
+ 
+    margin-top: 180px;
+   
+  }
+  .sula{
+    height: 40px;
+    width:40px;
+    margin-right: 5px;
+    padding-left: 0px;
+
+  }
+  .heading{
+    margin-top: 30px;
+    font-style:oblique;
+    font-size: 80px;
+  
+   text-align: center;
+   
+  
+
+  }
+  .heading2{
+    text-align: center;
+    font-style:oblique;
+    font-size: 74px;
+
+  }
+   .info{
+    text-align: center;
+    font-size: 20px;
+   }
+  .main-img{
+    height: 500px;
+    width:570px;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  .center{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+  }
+  .btn2{
+    margin-left: 140px;    
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 5px;
+    border: 2px solid black;
+    cursor:pointer;
+  }
+  .btn2:hover{
+    color:#ff1ac2;
+  }
+  .btn1{
+    border-radius: 30px;
+    padding: 5px;
+    border: 2px solid black;
+  }
+  .why-choose-us-heading {
+    margin-top: 50px;
+  }
+  
+    .head{
+      text-decoration: none;
+      color: white;
+    }
+    .head:hover{
+      color: #ff1ac2;
+    }
+  
+  
